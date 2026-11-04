@@ -2,11 +2,21 @@
 
 This repository is a source snapshot of the `nxnative` iOS runtime and the Pokémon Pokopia game profile used to build a local iPhone app. It includes the runtime changes for command record validation, RomFS index bounds, and both full and partial iOS shader build workflows.
 
-The app was built and installed on an iPhone Air with an existing partial shader library. The full shader build and gameplay validation are separate work; this snapshot is not a prebuilt app.
+The app was built and installed on an iPhone Air with an existing partial shader library. The full shader build and extended gameplay validation are separate work; this snapshot is not a prebuilt app.
+
+## Captured on iPhone Air
+
+[Watch a 41-second in-game capture (MP4, muted)](media/pokopia-iphone-air-41s-muted.mp4). The character stays in one area while other characters and the scene animate. The on-screen counter displayed 30 fps during this capture; that is an observation, not a performance benchmark. This build uses the partial shader library described below.
+
+![Pokopia running on an iPhone Air, with the player character and touch controls visible](media/pokopia-iphone-air-gameplay.png)
+
+![Another frame of the same scene, showing animated characters and the touch controls](media/pokopia-iphone-air-gameplay-frame.png)
 
 ## Source and attribution
 
 This snapshot is based on [`seedds/nxnative`](https://github.com/seedds/nxnative) at commit `a3d85ae1259e4cb59b3bc941010e09f8a7159650`, with the local iOS and safety changes described above. The upstream MIT license is preserved in [LICENSE](LICENSE). Third-party notices and licenses remain in `dm/third_party/` and the relevant tool directories.
+
+This project is not affiliated with Nintendo, The Pokémon Company, or the game's publisher.
 
 ## Building
 
