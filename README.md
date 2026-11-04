@@ -4,6 +4,8 @@ This repository is a source snapshot of the `nxnative` iOS runtime and the Poké
 
 The app was built and installed on an iPhone Air with an existing partial shader library. The full shader build and extended gameplay validation are separate work; this snapshot is not a prebuilt app.
 
+Read the [technical note on the iPhone bring-up](docs/technical-note.md) for the architecture, source attribution, changes, evidence, and remaining work.
+
 ## Captured on iPhone Air
 
 [Watch a 41-second in-game capture (MP4, muted)](media/pokopia-iphone-air-41s-muted.mp4). The character stays in one area while other characters and the scene animate. The on-screen counter displayed 30 fps during this capture; that is an observation, not a performance benchmark. This build uses the partial shader library described below.
